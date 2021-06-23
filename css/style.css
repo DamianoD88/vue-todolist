@@ -30,10 +30,39 @@
     padding-top: 30px;
 }
 
-.new-movie input {
+.new-movie, input {
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 50px;
     text-align: center;
     padding: 20px;
 }
+
+button {
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #007bc;
+
 }
+
+.movie-container {
+    background-color: rgb(199, 220, 246);
+    border-radius: 10px;
+    border-bottom: 2px solid #007bc3;
+    margin: 30px;
+    padding: 30px;
+}
+
+.movie-container ul {
+    list-style: none;
+
+}
+
+.movie {
+    border-bottom: 1px solid rgb(246, 234, 234);
+    padding: 7px;
+    cursor: pointer;
+}
+
+
+
