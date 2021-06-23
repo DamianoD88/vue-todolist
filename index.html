@@ -17,8 +17,8 @@
             <img class="logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F64%2FWarner_Bros_logo.svg%2F1200px-Warner_Bros_logo.svg.png&f=1&nofb=1" alt="Warner">
         </div>
         <div class="new-movie">
-            <input type="text" placeholder="title Movie" v-model="newMovie">
-            <button>Cerca</button>
+            <input type="text" @keyup.enter="addMovie" placeholder="title Movie" v-model="newMovie">
+            <button @click="addMovie">Cerca</button>
         </div>
         <div class="movie-container">
             <ul>

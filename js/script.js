@@ -14,6 +14,10 @@ const app = new Vue(
         methods: {
             addMovie(){
                 this.movie.push(this.newMovie);
+                this.newMovie = '';
+            },
+            closeMovie(){
+                this.movie
             }
             
         }
