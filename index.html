@@ -22,7 +22,7 @@
         </div>
         <div class="movie-container">
             <ul>
-                <li class="movie clearfix" v-for="item in movie"> {{ item }} <i class="fas fa-times"></i></li>
+                <li class="movie clearfix" v-for="(item, index) in movie"> {{ item }} <i class="fas fa-times" @click="removeMovie(index)"></i></li>
             </ul>
         </div>
 
